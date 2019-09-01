@@ -8,8 +8,7 @@ app=Flask(__name__)
 
 ##app.config['SQLALCHEMY_DATABASE_URI']='postgresql://postgres:3962731@localhost/Height_collector'
 ##app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.config['SQLALCHEMY_DATABASE_URI']='postgres://nvcdrwfhqoxucx:407eb4517636f7eec2e28f79c4610b26c3231' \
-                                      '80b38153bd405acf790bd7c0d79@ec2-174-129-242-183.compute-1.amazonaws.com:5432/dfpqgu3lodavd8?sslmode=require'
+app.config['SQLALCHEMY_DATABASE_URI']='postgres://nvcdrwfhqoxucx:407eb4517636f7eec2e28f79c4610b26c323180b38153bd405acf790bd7c0d79@ec2-174-129-242-183.compute-1.amazonaws.com:5432/dfpqgu3lodavd8?sslmode=require'
 
 db = SQLAlchemy(app)
 
